@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+  font-size: 2em;
+  height: auto;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.states {
+  display: flex;
+}
+
+.state {
+  background-color:  #f2f3f4;
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.current {
+  border: 4px solid black;
+}
+
+
+.out {
+  font-size: 8em;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  height: 6rem;
+  width: 6rem;
+  text-align: center;
+  line-height: 6rem;
+  background-color:  #f2f3f4;
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+.button:hover {
+  filter: brightness(0.9);
+}
+
+.fa {
+  color: black;
+}
